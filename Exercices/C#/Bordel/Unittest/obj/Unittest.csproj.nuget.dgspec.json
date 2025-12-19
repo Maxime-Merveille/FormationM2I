@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrateur\\OneDrive - M2I\\Exercices\\C#\\Bordel\\Unittest\\Unittest.csproj": {}
+    "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot perso\\Exercices\\C#\\Bordel\\Unittest\\Unittest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrateur\\OneDrive - M2I\\Exercices\\C#\\Bordel\\APIWeb\\APIWeb.csproj": {
+    "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot perso\\Exercices\\C#\\Bordel\\APIWeb\\APIWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrateur\\OneDrive - M2I\\Exercices\\C#\\Bordel\\APIWeb\\APIWeb.csproj",
+        "projectUniqueName": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot perso\\Exercices\\C#\\Bordel\\APIWeb\\APIWeb.csproj",
         "projectName": "APIWeb",
-        "projectPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Exercices\\C#\\Bordel\\APIWeb\\APIWeb.csproj",
+        "projectPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot perso\\Exercices\\C#\\Bordel\\APIWeb\\APIWeb.csproj",
         "packagesPath": "C:\\Users\\Administrateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Exercices\\C#\\Bordel\\APIWeb\\obj\\",
+        "outputPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot perso\\Exercices\\C#\\Bordel\\APIWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -493,14 +493,14 @@
         }
       }
     },
-    "C:\\Users\\Administrateur\\OneDrive - M2I\\Exercices\\C#\\Bordel\\Bordel\\Bordel.csproj": {
+    "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot perso\\Exercices\\C#\\Bordel\\Bordel\\Bordel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrateur\\OneDrive - M2I\\Exercices\\C#\\Bordel\\Bordel\\Bordel.csproj",
+        "projectUniqueName": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot perso\\Exercices\\C#\\Bordel\\Bordel\\Bordel.csproj",
         "projectName": "Bordel",
-        "projectPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Exercices\\C#\\Bordel\\Bordel\\Bordel.csproj",
+        "projectPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot perso\\Exercices\\C#\\Bordel\\Bordel\\Bordel.csproj",
         "packagesPath": "C:\\Users\\Administrateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Exercices\\C#\\Bordel\\Bordel\\obj\\",
+        "outputPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot perso\\Exercices\\C#\\Bordel\\Bordel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -833,14 +833,14 @@
         }
       }
     },
-    "C:\\Users\\Administrateur\\OneDrive - M2I\\Exercices\\C#\\Bordel\\Unittest\\Unittest.csproj": {
+    "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot perso\\Exercices\\C#\\Bordel\\Unittest\\Unittest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrateur\\OneDrive - M2I\\Exercices\\C#\\Bordel\\Unittest\\Unittest.csproj",
+        "projectUniqueName": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot perso\\Exercices\\C#\\Bordel\\Unittest\\Unittest.csproj",
         "projectName": "Unittest",
-        "projectPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Exercices\\C#\\Bordel\\Unittest\\Unittest.csproj",
+        "projectPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot perso\\Exercices\\C#\\Bordel\\Unittest\\Unittest.csproj",
         "packagesPath": "C:\\Users\\Administrateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Exercices\\C#\\Bordel\\Unittest\\obj\\",
+        "outputPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot perso\\Exercices\\C#\\Bordel\\Unittest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -862,11 +862,11 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Administrateur\\OneDrive - M2I\\Exercices\\C#\\Bordel\\APIWeb\\APIWeb.csproj": {
-                "projectPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Exercices\\C#\\Bordel\\APIWeb\\APIWeb.csproj"
+              "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot perso\\Exercices\\C#\\Bordel\\APIWeb\\APIWeb.csproj": {
+                "projectPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot perso\\Exercices\\C#\\Bordel\\APIWeb\\APIWeb.csproj"
               },
-              "C:\\Users\\Administrateur\\OneDrive - M2I\\Exercices\\C#\\Bordel\\Bordel\\Bordel.csproj": {
-                "projectPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Exercices\\C#\\Bordel\\Bordel\\Bordel.csproj"
+              "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot perso\\Exercices\\C#\\Bordel\\Bordel\\Bordel.csproj": {
+                "projectPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot perso\\Exercices\\C#\\Bordel\\Bordel\\Bordel.csproj"
               }
             }
           }
