@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Exercices\\C#\\Bordel\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot perso\\Exercices\\C#\\Bordel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{063204F3-1A02-025C-5870-870BFB085B19}|Bordel\\Bordel.csproj|c:\\users\\administrateur\\onedrive - m2i\\exercices\\c#\\bordel\\bordel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{063204F3-1A02-025C-5870-870BFB085B19}|Bordel\\Bordel.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\exercices\\c#\\bordel\\bordel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{063204F3-1A02-025C-5870-870BFB085B19}|Bordel\\Bordel.csproj|solutionrelative:bordel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Exercices\\C#\\Bordel\\Bordel\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot perso\\Exercices\\C#\\Bordel\\Bordel\\Program.cs",
               "RelativeDocumentMoniker": "Bordel\\Program.cs",
-              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Exercices\\C#\\Bordel\\Bordel\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot perso\\Exercices\\C#\\Bordel\\Bordel\\Program.cs",
               "RelativeToolTip": "Bordel\\Program.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAwA8AAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAMQAAAAAAAAAAAAwwNAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-19T10:54:53.657Z",
               "EditorCaption": ""
