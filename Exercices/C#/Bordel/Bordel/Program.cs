@@ -1,4 +1,19 @@
-﻿using System;
+﻿//_______________________________________________________________________________________________________________________________________//
+//   Programme développé par                                                                                                             //
+//   ___  ___   ___    _   _   _____   ___ ___ _____           ___  ___  _____   _____   _   _   _____   _____   _       _       _____   //
+//   |  \/  |  / _ \  | \ / | |_   _| |  \/  | |  ___|         |  \/  | |  ___| | ___ | | | | | |  ___| |_   _| | |     | |     |  ___|  //
+//   | .  . | / /_\ \  \ V /    | |   | .  . | | |__           | .  . | | |__   | |_/ / | | | | | |__     | |   | |     | |     | |__    //
+//   | |\/| | |  _  |  / _ \    | |   | |\/| | |  __|          | |\/| | |  __|  |    /  | | | | |  __|    | |   | |     | |     |  __|   //
+//   | |  | | | | | | / / \ \  _| |_  | |  | | | |___          | |  | | | |___  | |\ \  \ \_/ / | |___   _| |_  | |____ | |____ | |___   //
+//   \_|  |_/ \_| |_/ \/   \/ |_____| \_|  |_/ \____/          \_|  |_/ \____/  \_| \_|  \___/  \____/  |_____| \_____/ \_____/ \____/   //
+//                                                                                                                                       //
+//                                               /\_/\           ___                                                                     //
+//                                              = o_o =_______    \ \                                                                    //
+//                                               __^      __(  \___) )                                                                   //
+//                                           (@)<_____>__(_____)____/                                                                    //
+//	 Le 06/01/2026                                                                                                                       //
+//_______________________________________________________________________________________________________________________________________//
+using System;
 
 namespace Bordel
 {
@@ -21,7 +36,8 @@ namespace Bordel
 
             if (age < AGE_MIN)
             {
-                Console.WriteLine("Vous etes trop jeune, cassez vous !");
+                // Mineur⛏️
+                Console.WriteLine("Vous etes trop jeune !");
             }
             else
             {
@@ -37,26 +53,27 @@ namespace Bordel
                     switch (Console.ReadLine())
                     {
                         case "1":
-                            Console.WriteLine("Ce sera 5 euro, connard");
+                            Console.WriteLine("Ce sera 5 euro");
                             ardoise += 5;
                             break;
                         case "2":
-                            Console.WriteLine("Blonde ou brune, l'ami ? C'est 7 euro la pinte");
+                            Console.WriteLine("C'est 7 euro la pinte");
                             ardoise += 7;
                             break;
                         case "3":
-                            Console.WriteLine("Casse toi de mon bar");
+                            Console.WriteLine("C'est 2 euro");
+                            ardoise += 2;
                             break;
                         case "STOP":
                             exit = true;
                             break;
                         default:
-                            Console.WriteLine("Apprend a compter ducon, 10 euros d'ammende");
+                            Console.WriteLine("Erreur, 10 euros d'ammende");
                             ardoise += 10;
                             break;
                     }
                 }
-                Console.WriteLine($"Tu me dois {ardoise} euros, chacal");
+                Console.WriteLine($"Tu me dois {ardoise} euros");
             }
 
 
@@ -120,7 +137,7 @@ namespace Bordel
 
         public static void Exercice3()
         {
-            // Definition des variables
+            // Definition des variables 
             Random rnd = new Random();
             char[] choix = { 'R', 'V', 'B', 'J' };
             string pions = "";
@@ -129,7 +146,7 @@ namespace Bordel
             int essai = 0;
 
             // Text debut du jeu
-            Console.WriteLine("Jeu MASTERMIND");
+            Console.WriteLine("Jeu MASTERMIND ");
             Console.WriteLine("Trouvez les bonnes couleurs au bons emplacements pour gagner, vous avez 10 essais, les régles sont :\nX - Couleur non-existante\n* - Couleur existante mais au mauvais emplacement\nO - Bonne couleur au bon emplacement.");
             Console.WriteLine("\nLes couleurs disponibles sont :\nR - Rouge\nV - Vert\nB - Bleu\nJ - Jaune");
 
