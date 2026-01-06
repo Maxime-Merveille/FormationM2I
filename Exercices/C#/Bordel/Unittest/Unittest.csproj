@@ -17,7 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\APIWeb\APIWeb.csproj" />
     <ProjectReference Include="..\Bordel\Bordel.csproj" />
   </ItemGroup>
 

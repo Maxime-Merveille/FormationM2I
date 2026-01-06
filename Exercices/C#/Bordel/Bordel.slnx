@@ -1,5 +1,6 @@
 <Solution>
-  <Project Path="APIWeb/APIWeb.csproj" Id="698fc5d9-34cd-4f53-b49b-461ea99fe20c" />
+  <Project Path="AppliWeb/AppliWeb.csproj" Id="fe43b804-d6c6-4264-8852-2356ad2dfd8d" />
   <Project Path="Bordel/Bordel.csproj" />
+  <Project Path="Fonctions/Fonctions.csproj" Id="1f5707e5-efb5-4a6c-a242-4f792666d460" />
   <Project Path="Unittest/Unittest.csproj" />
 </Solution>
