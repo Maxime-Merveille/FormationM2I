@@ -89,6 +89,80 @@ namespace POO
             }
         }
 
+        public static void TestCiterne()
+        {
+            bool continuer = true;
+            string choix = "";
+            int quantite = 0;
+
+            Citerne citerne1 = new Citerne(10, 20);
+            Citerne citerne2 = new Citerne(10, 15);
+
+            while (continuer)
+            {
+
+            
+                Console.WriteLine("Que voulez vous faire ?\n1 - Afficher les informations des citernes\n2 - Remplire une citerne\n3 - Vider une citerne\n4 - Voir le stock total des citernes\nAutre pour quitter\n");
+
+                switch (Console.ReadLine())
+                {
+                    case "1":
+                        Console.WriteLine("===== PRINT CITERNE =====\n");
+                        Console.WriteLine(" - Citerne 1 - \n" + citerne1 + "\n");
+                        Console.WriteLine(" - Citerne 2 - \n" + citerne2 + "\n");
+                        break;
+
+                    case "2":
+                        Console.WriteLine("Quelle citerne remplire ? (1 ou 2)");
+                        choix = Console.ReadLine();
+
+                        Console.WriteLine("Combien de litres voulez vous ajouter ?");
+                        quantite = Int32.Parse(Console.ReadLine());
+
+                        if (choix == "1")
+                        {
+                            Console.WriteLine("\n===== Remplissage citerne 1 =====\n");
+                            citerne1.RemplirCiterne(quantite);
+                        }
+                        else
+                        {
+                            Console.WriteLine("\n===== Remplissage citerne 2 =====\n");
+                            citerne2.RemplirCiterne(quantite);
+                        }
+                        break;
+
+                    case "3":
+                        Console.WriteLine("Quelle citerne vider ? (1 ou 2)");
+                        choix = Console.ReadLine();
+
+                        Console.WriteLine("Combien de litres voulez vous retirer ?");
+                        quantite = Int32.Parse(Console.ReadLine());
+
+                        if (choix == "1")
+                        {
+                            Console.WriteLine("\n===== Vidage citerne 1 =====\n");
+                            citerne1.ViderCiterne(quantite);
+                        }
+                        else
+                        {
+                            Console.WriteLine("\n===== Vidage citerne 2 =====\n");
+                            citerne2.ViderCiterne(quantite);
+                        }
+                        break;
+
+                    case "4":
+                        Console.WriteLine("\n ===== Recuperation total de stock des citernes =====\n");
+                        Citerne.GetCapaciteTotale();
+                        break;
+
+                    default:
+                        continuer = false;
+                        break;
+                }
+            }
+
+        }
+
         static void Main(string[] args)
         {
 
@@ -96,7 +170,9 @@ namespace POO
 
             //TestSalarie();
 
-            TestPendu();
+            //TestPendu();
+
+            TestCiterne();
            
         }
     }
