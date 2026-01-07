@@ -1,4 +1,20 @@
-﻿namespace Fonctions
+﻿//_______________________________________________________________________________________________________________________________________//
+//   Programme développé par                                                                                                             //
+//   ___  ___   ___    _   _   _____   ___ ___ _____           ___  ___  _____   _____   _   _   _____   _____   _       _       _____   //
+//   |  \/  |  / _ \  | \ / | |_   _| |  \/  | |  ___|         |  \/  | |  ___| | ___ | | | | | |  ___| |_   _| | |     | |     |  ___|  //
+//   | .  . | / /_\ \  \ V /    | |   | .  . | | |__           | .  . | | |__   | |_/ / | | | | | |__     | |   | |     | |     | |__    //
+//   | |\/| | |  _  |  / _ \    | |   | |\/| | |  __|          | |\/| | |  __|  |    /  | | | | |  __|    | |   | |     | |     |  __|   //
+//   | |  | | | | | | / / \ \  _| |_  | |  | | | |___          | |  | | | |___  | |\ \  \ \_/ / | |___   _| |_  | |____ | |____ | |___   //
+//   \_|  |_/ \_| |_/ \/   \/ |_____| \_|  |_/ \____/          \_|  |_/ \____/  \_| \_|  \___/  \____/  |_____| \_____/ \_____/ \____/   //
+//                                                                                                                                       //
+//                                               /\_/\           ___                                                                     //
+//                                              = o_o =_______    \ \                                                                    //
+//                                               __^      __(  \___) )                                                                   //
+//                                           (@)<_____>__(_____)____/                                                                    //
+//	 Le 07/01/2026                                                                                                                       //
+//_______________________________________________________________________________________________________________________________________//
+
+namespace Fonctions
 {
     internal class Program
     {
@@ -86,6 +102,7 @@
         public static double CalculerMoyenne(double[] valeurs)
         {
             double moyenne = 0;
+
             foreach(double v in valeurs)
             {
                 moyenne += v; 
@@ -99,6 +116,7 @@
         {
             Console.WriteLine("\n=== ALERTES DE STOCK ===\n");
             bool isAlerte = false;
+
             for (int i = 0; i < quantites.Length; i++) 
             { 
                 
@@ -114,6 +132,7 @@
 
         public static void TrierParVentes(string[] noms, double[] prix, int[] quantites, int[] ventes)
         {
+            // var temporaire
             string tempNom = "";
             double tempPrix = 0.0;
             int tempQuantite = 0;
@@ -126,7 +145,7 @@
                 {
                     if (ventes[j] < ventes[j + 1])
                     {
-                        // Échange
+                        // Échange de var
                         tempVentes = ventes[j];
                         tempNom = noms[j];
                         tempPrix = prix[j];
@@ -150,21 +169,102 @@
 
         public static void AfficherTopVentes(string[] noms, int[] ventes, int top)
         {
+            //Si le tri se fait a l'avance, ca :
+
+            /*
             Console.WriteLine($"\n ----- Top {top} des ventes ce mois-ci -----\n");
             for(int i = 0; i< top; i++)
             {
                 Console.WriteLine($"Top {i+1} des ventes : {noms[i]}");
             }
+            */
+
+            // Si il faut faire le tri ici, alors ca :
+
+            string tempNom = "";
+            int tempVentes = 0;
+
+             // Tri à bulle
+            for (int i = 0; i < ventes.Length - 1; i++)
+            {
+                for (int j = 0; j < ventes.Length - 1 - i; j++)
+                {
+                    if (ventes[j] < ventes[j + 1])
+                    {
+                        // Échange de var
+                        tempVentes = ventes[j];
+                        tempNom = noms[j];
+
+                        ventes[j] = ventes[j + 1];
+                        ventes[j + 1] = tempVentes;
+
+                        noms[j] = noms[j + 1];
+                        noms[j + 1] = tempNom;
+
+                    }
+                }
+            }
+
+            Console.WriteLine($"\n ----- Top {top} des ventes ce mois-ci -----\n");
+            for (int i = 0; i < top; i++)
+            {
+                Console.WriteLine($"Top {i + 1} des ventes : {noms[i]}");
+            }
         }
 
         public static double CalculerTauxRotation(int ventes, int stock)
         {
-            double rotation = ventes / stock;
-            return rotation;
+            double rotation = decimal.ToDouble(ventes) / decimal.ToDouble(stock); // Forcer le resultat en double
+            return Math.Round(rotation,3);
         }
 
-        //TODO
-        //public static void
+        
+        public static void ShowAllProduit(string[] noms, double[] prix, int[] quantites, int[] ventes)
+        {
+            Console.WriteLine("\n===== Listage des fiches produits =====");
+            for (int i = 0; i < noms.Length; i++)
+            {
+                Console.WriteLine($"\n--- Produit {i + 1} ---");
+                AfficherFicheProduit(noms[i], prix[i], quantites[i], ventes[i]);
+            }
+        }
+
+        public static void ShowStatsGlobale(string[] noms, double[] prix, int[] quantites, int[] ventes)
+        {
+            Console.WriteLine("\n===== Statistiques globales =====\n");
+
+            Console.WriteLine($"Valeur totale du stock : {CalculerValeurStock(prix, quantites)}");
+
+            Console.WriteLine($"Le prix moyen est de {CalculerMoyenne(prix)}");
+
+            Console.WriteLine($"Chiffre d'affaire total du mois : {CalculerChiffreAffaires(prix, ventes)}");
+
+            Console.WriteLine($"Produit le plus cher : {TrouverProduitPlusCher(noms, prix)}");
+
+            Console.WriteLine($"Produit le plus vendu : {TrouverProduitLePlusVendu(noms, ventes)}");
+
+            Console.WriteLine($"Il y a {CompterProduitsEnRupture(quantites)} produits en rupture");
+
+            Console.WriteLine($"Il y a {CompterProduitsStockFaible(quantites, 10)} en stock faible");
+
+        }
+
+        public static void GetProduitByName(string[] noms, double[] prix, int[] quantites, int[] ventes, string recherche)
+        {
+            int index = noms.IndexOf(recherche);
+            if( index == -1)
+            {
+                Console.WriteLine("Erreur, produit introuvable");
+            }
+            else
+            {
+                Console.WriteLine($"Produit {recherche}");
+                Console.WriteLine($"Prix unitaire : {prix[index]}");
+                Console.WriteLine($"Quantité en stock : {quantites[index]}");
+                Console.WriteLine($"Ventes du mois : {ventes[index]}");
+            }
+                
+        }
 
         static void Main(string[] args)
         {
@@ -173,7 +273,7 @@
             int[] stockProduits = { 40, 100, 23, 9, 11, 4, 0};
             int[] nombreVenteProduits = { 45, 60 , 100 ,12, 5 , 6 , 1};
 
-            Console.WriteLine("=== SYSTÈME DE GESTION D'INVENTAIRE ===");
+            Console.WriteLine("=== SYSTÈME DE GESTION D'INVENTAIRE ===\n");
             #region Region UI
             /*
             Console.WriteLine("Entrez le nombre de produit dans l'inventaire (entre 5 et 20):");
@@ -200,45 +300,61 @@
             */
             #endregion
 
-            Console.WriteLine("\n===== Listage des fiches produits =====");
-            for(int i = 0;i < nomsProduits.Length;i++)
+            bool continuer = true;
+
+            while (continuer)
             {
-                Console.WriteLine($"\n--- Produit {i+1} ---");
-                AfficherFicheProduit(nomsProduits[i], prixProduits[i], stockProduits[i], nombreVenteProduits[i]);
+                Console.WriteLine("\n===== MENU =====\n");
+
+                Console.WriteLine("1 - Afficher tout les produits\n2 - Afficher les stats globales\n3 - Afficher alertes stock\n4 - Recherche produit par noms\n5 - Afficher top 5 ventes\n6 - Trier tableau\n7 - Afficher taux de rotation\nAutres touches pour quitter");
+
+                string choixMenu = Console.ReadLine();
+
+                switch (choixMenu)
+                {
+                    case "1":
+                        ShowAllProduit(nomsProduits, prixProduits, stockProduits, nombreVenteProduits);
+                        break;
+
+                    case "2":
+                        ShowStatsGlobale(nomsProduits, prixProduits, stockProduits, nombreVenteProduits);
+                        break;
+
+                    case "3":
+                        Console.WriteLine("Quel est le seuil d'alerte de stock ?");
+                        int seuil = Int32.Parse(Console.ReadLine());
+                        AfficherAlerteStock(nomsProduits, stockProduits, seuil);
+                        break;
+
+                    case "4":
+                        Console.WriteLine("Quel produits cherchez vous ?");
+                        string recherche = Console.ReadLine();
+                        GetProduitByName(nomsProduits, prixProduits, stockProduits, nombreVenteProduits, recherche);
+                        break;
+
+                    case "5":
+                        AfficherTopVentes(nomsProduits, nombreVenteProduits, 5);
+                        break;
+
+                    case "6":
+                        TrierParVentes(nomsProduits, prixProduits, stockProduits, nombreVenteProduits);
+                        ShowAllProduit(nomsProduits, prixProduits, stockProduits, nombreVenteProduits);
+                        break;
+
+                    case "7":
+                        Console.WriteLine("Quel n° de produits cherchez vous ?");
+                        int choix = Int32.Parse(Console.ReadLine());
+                        Console.WriteLine($"Taux de rotation de {nomsProduits[choix]} : {CalculerTauxRotation(nombreVenteProduits[choix], stockProduits[choix])}");
+                        break;
+
+                    default:
+                        continuer = false;
+                        break;
+
+
+                }
             }
-
-            Console.WriteLine("\n===== Statistiques globales =====\n");
-
-            Console.WriteLine($"Valeur totale du stock : {CalculerValeurStock(prixProduits, stockProduits)}");
-
-            Console.WriteLine($"Le prix moyen est de {CalculerMoyenne(prixProduits)}");
-
-            Console.WriteLine($"Chiffre d'affaire total du mois : {CalculerChiffreAffaires(prixProduits, nombreVenteProduits)}");
-
-            Console.WriteLine($"Produit le plus cher : {TrouverProduitPlusCher(nomsProduits, prixProduits)}");
-
-            Console.WriteLine($"Produit le plus vendu : {TrouverProduitLePlusVendu(nomsProduits, nombreVenteProduits)}");
-
-            Console.WriteLine($"Il y a {CompterProduitsEnRupture(stockProduits)
-} produits en rupture");
-
-            Console.WriteLine($"Il y a {CompterProduitsStockFaible(stockProduits,10)} en stock faible");
-            AfficherAlerteStock(nomsProduits, stockProduits, 10);
-
-            Console.WriteLine("\n===== EXERCICE 4 =====");
-
-            TrierParVentes(nomsProduits, prixProduits, stockProduits, nombreVenteProduits);
-
-            Console.WriteLine("\n===== Listage des fiches produits =====");
-            for (int i = 0; i < nomsProduits.Length; i++)
-            {
-                Console.WriteLine($"\n--- Produit {i + 1} ---");
-                AfficherFicheProduit(nomsProduits[i], prixProduits[i], stockProduits[i], nombreVenteProduits[i]);
-            }
-
-            AfficherTopVentes(nomsProduits, nombreVenteProduits, 3);
-
-            Console.WriteLine($"\nLe taux de rotation pour le produit 1 - {nomsProduits[0]} est de {CalculerTauxRotation(nombreVenteProduits[0], stockProduits[0])}");
+            
         }
     }
 }

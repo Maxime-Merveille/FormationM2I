@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot perso\\Exercices\\C#\\Bordel\\Fonctions\\Fonctions.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\M2I\\Depot github\\FormationM2I\\Exercices\\C#\\Bordel\\Fonctions\\Fonctions.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot perso\\Exercices\\C#\\Bordel\\Fonctions\\Fonctions.csproj": {
+    "C:\\Users\\Admin\\Desktop\\M2I\\Depot github\\FormationM2I\\Exercices\\C#\\Bordel\\Fonctions\\Fonctions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot perso\\Exercices\\C#\\Bordel\\Fonctions\\Fonctions.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\M2I\\Depot github\\FormationM2I\\Exercices\\C#\\Bordel\\Fonctions\\Fonctions.csproj",
         "projectName": "Fonctions",
-        "projectPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot perso\\Exercices\\C#\\Bordel\\Fonctions\\Fonctions.csproj",
-        "packagesPath": "C:\\Users\\Administrateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot perso\\Exercices\\C#\\Bordel\\Fonctions\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\M2I\\Depot github\\FormationM2I\\Exercices\\C#\\Bordel\\Fonctions\\Fonctions.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\M2I\\Depot github\\FormationM2I\\Exercices\\C#\\Bordel\\Fonctions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

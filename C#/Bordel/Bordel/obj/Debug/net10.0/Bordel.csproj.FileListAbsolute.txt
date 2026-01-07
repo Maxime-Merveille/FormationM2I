@@ -1,0 +1,29 @@
+C:\Users\Administrateur\OneDrive - M2I\Exercices\C#\Bordel\Bordel\bin\Debug\net10.0\Bordel.exe
+C:\Users\Administrateur\OneDrive - M2I\Exercices\C#\Bordel\Bordel\bin\Debug\net10.0\Bordel.deps.json
+C:\Users\Administrateur\OneDrive - M2I\Exercices\C#\Bordel\Bordel\bin\Debug\net10.0\Bordel.runtimeconfig.json
+C:\Users\Administrateur\OneDrive - M2I\Exercices\C#\Bordel\Bordel\bin\Debug\net10.0\Bordel.dll
+C:\Users\Administrateur\OneDrive - M2I\Exercices\C#\Bordel\Bordel\bin\Debug\net10.0\Bordel.pdb
+C:\Users\Administrateur\OneDrive - M2I\Exercices\C#\Bordel\Bordel\obj\Debug\net10.0\Bordel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\OneDrive - M2I\Exercices\C#\Bordel\Bordel\obj\Debug\net10.0\Bordel.AssemblyInfoInputs.cache
+C:\Users\Administrateur\OneDrive - M2I\Exercices\C#\Bordel\Bordel\obj\Debug\net10.0\Bordel.AssemblyInfo.cs
+C:\Users\Administrateur\OneDrive - M2I\Exercices\C#\Bordel\Bordel\obj\Debug\net10.0\Bordel.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\OneDrive - M2I\Exercices\C#\Bordel\Bordel\obj\Debug\net10.0\Bordel.dll
+C:\Users\Administrateur\OneDrive - M2I\Exercices\C#\Bordel\Bordel\obj\Debug\net10.0\refint\Bordel.dll
+C:\Users\Administrateur\OneDrive - M2I\Exercices\C#\Bordel\Bordel\obj\Debug\net10.0\Bordel.pdb
+C:\Users\Administrateur\OneDrive - M2I\Exercices\C#\Bordel\Bordel\obj\Debug\net10.0\Bordel.genruntimeconfig.cache
+C:\Users\Administrateur\OneDrive - M2I\Exercices\C#\Bordel\Bordel\obj\Debug\net10.0\ref\Bordel.dll
+C:\Users\Admin\Desktop\M2I\Depot github\FormationM2I\C#\Bordel\Bordel\bin\Debug\net10.0\Bordel.exe
+C:\Users\Admin\Desktop\M2I\Depot github\FormationM2I\C#\Bordel\Bordel\bin\Debug\net10.0\Bordel.deps.json
+C:\Users\Admin\Desktop\M2I\Depot github\FormationM2I\C#\Bordel\Bordel\bin\Debug\net10.0\Bordel.runtimeconfig.json
+C:\Users\Admin\Desktop\M2I\Depot github\FormationM2I\C#\Bordel\Bordel\bin\Debug\net10.0\Bordel.dll
+C:\Users\Admin\Desktop\M2I\Depot github\FormationM2I\C#\Bordel\Bordel\bin\Debug\net10.0\Bordel.pdb
+C:\Users\Admin\Desktop\M2I\Depot github\FormationM2I\C#\Bordel\Bordel\obj\Debug\net10.0\Bordel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\M2I\Depot github\FormationM2I\C#\Bordel\Bordel\obj\Debug\net10.0\Bordel.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\M2I\Depot github\FormationM2I\C#\Bordel\Bordel\obj\Debug\net10.0\Bordel.AssemblyInfo.cs
+C:\Users\Admin\Desktop\M2I\Depot github\FormationM2I\C#\Bordel\Bordel\obj\Debug\net10.0\Bordel.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\M2I\Depot github\FormationM2I\C#\Bordel\Bordel\obj\Debug\net10.0\Bordel.sourcelink.json
+C:\Users\Admin\Desktop\M2I\Depot github\FormationM2I\C#\Bordel\Bordel\obj\Debug\net10.0\Bordel.dll
+C:\Users\Admin\Desktop\M2I\Depot github\FormationM2I\C#\Bordel\Bordel\obj\Debug\net10.0\refint\Bordel.dll
+C:\Users\Admin\Desktop\M2I\Depot github\FormationM2I\C#\Bordel\Bordel\obj\Debug\net10.0\Bordel.pdb
+C:\Users\Admin\Desktop\M2I\Depot github\FormationM2I\C#\Bordel\Bordel\obj\Debug\net10.0\Bordel.genruntimeconfig.cache
+C:\Users\Admin\Desktop\M2I\Depot github\FormationM2I\C#\Bordel\Bordel\obj\Debug\net10.0\ref\Bordel.dll

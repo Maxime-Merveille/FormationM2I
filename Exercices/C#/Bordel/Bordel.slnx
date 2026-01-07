@@ -2,5 +2,6 @@
   <Project Path="AppliWeb/AppliWeb.csproj" Id="fe43b804-d6c6-4264-8852-2356ad2dfd8d" />
   <Project Path="Bordel/Bordel.csproj" />
   <Project Path="Fonctions/Fonctions.csproj" Id="1f5707e5-efb5-4a6c-a242-4f792666d460" />
+  <Project Path="POO/POO.csproj" Id="38651aa6-0a71-48cb-965d-b90a51aa3ddf" />
   <Project Path="Unittest/Unittest.csproj" />
 </Solution>

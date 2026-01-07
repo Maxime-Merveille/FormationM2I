@@ -1,10 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot perso\\Exercices\\C#\\Bordel\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\M2I\\Depot github\\FormationM2I\\Exercices\\C#\\Bordel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F5707E5-EFB5-4A6C-A242-4F792666D460}|Fonctions\\Fonctions.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\exercices\\c#\\bordel\\fonctions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F5707E5-EFB5-4A6C-A242-4F792666D460}|Fonctions\\Fonctions.csproj|solutionrelative:fonctions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|c:\\users\\admin\\desktop\\m2i\\depot github\\formationm2i\\exercices\\c#\\bordel\\poo\\classes\\salarie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|solutionrelative:poo\\classes\\salarie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|c:\\users\\admin\\desktop\\m2i\\depot github\\formationm2i\\exercices\\c#\\bordel\\poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|solutionrelative:poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|c:\\users\\admin\\desktop\\m2i\\depot github\\formationm2i\\exercices\\c#\\bordel\\poo\\classes\\pendu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|solutionrelative:poo\\classes\\pendu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|c:\\users\\admin\\desktop\\m2i\\depot github\\formationm2i\\exercices\\c#\\bordel\\poo\\classes\\chaise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|solutionrelative:poo\\classes\\chaise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|c:\\users\\admin\\desktop\\m2i\\depot github\\formationm2i\\exercices\\c#\\bordel\\poo\\classes\\generateurmots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|solutionrelative:poo\\classes\\generateurmots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,23 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 210,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Chaise.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\M2I\\Depot github\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\Chaise.cs",
+              "RelativeDocumentMoniker": "POO\\Classes\\Chaise.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\M2I\\Depot github\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\Chaise.cs",
+              "RelativeToolTip": "POO\\Classes\\Chaise.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAACLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T15:30:17.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GenerateurMots.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\M2I\\Depot github\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\GenerateurMots.cs",
+              "RelativeDocumentMoniker": "POO\\Classes\\GenerateurMots.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\M2I\\Depot github\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\GenerateurMots.cs",
+              "RelativeToolTip": "POO\\Classes\\GenerateurMots.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAACLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T14:18:21.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Pendu.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\M2I\\Depot github\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\Pendu.cs",
+              "RelativeDocumentMoniker": "POO\\Classes\\Pendu.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\M2I\\Depot github\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\Pendu.cs",
+              "RelativeToolTip": "POO\\Classes\\Pendu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T14:09:37.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\M2I\\Depot github\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Program.cs",
+              "RelativeDocumentMoniker": "POO\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\M2I\\Depot github\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Program.cs",
+              "RelativeToolTip": "POO\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAACLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T09:20:45.697Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot perso\\Exercices\\C#\\Bordel\\Fonctions\\Program.cs",
-              "RelativeDocumentMoniker": "Fonctions\\Program.cs",
-              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot perso\\Exercices\\C#\\Bordel\\Fonctions\\Program.cs",
-              "RelativeToolTip": "Fonctions\\Program.cs",
-              "ViewState": "AgIAAIsAAAAAAAAAAAAUwKUAAAAOAAAAAAAAAA==",
+              "Title": "Salarie.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\M2I\\Depot github\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\Salarie.cs",
+              "RelativeDocumentMoniker": "POO\\Classes\\Salarie.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\M2I\\Depot github\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\Salarie.cs",
+              "RelativeToolTip": "POO\\Classes\\Salarie.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T13:51:39.723Z",
+              "WhenOpened": "2026-01-07T13:27:44.714Z",
               "EditorCaption": ""
             }
           ]

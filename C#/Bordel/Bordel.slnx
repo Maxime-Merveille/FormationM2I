@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="APIWeb/APIWeb.csproj" Id="698fc5d9-34cd-4f53-b49b-461ea99fe20c" />
+  <Project Path="Bordel/Bordel.csproj" />
+  <Project Path="Unittest/Unittest.csproj" />
+</Solution>
