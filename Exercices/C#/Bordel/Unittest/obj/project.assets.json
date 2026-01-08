@@ -910,7 +910,7 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "C:\\Users\\Admin\\Desktop\\M2I\\Depot github\\FormationM2I\\Exercices\\C#\\Bordel\\Bordel\\Bordel.csproj",
+      "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\Bordel\\Bordel.csproj",
       "Microsoft.NET.Test.Sdk >= 17.14.0",
       "NUnit >= 3.*",
       "NUnit3TestAdapter >= 4.*",
@@ -918,23 +918,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Users\\Administrateur\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\M2I\\Depot github\\FormationM2I\\Exercices\\C#\\Bordel\\Unittest\\Unittest.csproj",
+      "projectUniqueName": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\Unittest\\Unittest.csproj",
       "projectName": "Unittest",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\M2I\\Depot github\\FormationM2I\\Exercices\\C#\\Bordel\\Unittest\\Unittest.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\M2I\\Depot github\\FormationM2I\\Exercices\\C#\\Bordel\\Unittest\\obj\\",
+      "projectPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\Unittest\\Unittest.csproj",
+      "packagesPath": "C:\\Users\\Administrateur\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\Unittest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Administrateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -950,8 +950,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\Admin\\Desktop\\M2I\\Depot github\\FormationM2I\\Exercices\\C#\\Bordel\\Bordel\\Bordel.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Desktop\\M2I\\Depot github\\FormationM2I\\Exercices\\C#\\Bordel\\Bordel\\Bordel.csproj"
+            "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\Bordel\\Bordel.csproj": {
+              "projectPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\Bordel\\Bordel.csproj"
             }
           }
         }
@@ -1287,8 +1287,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Projet 'C:\\Users\\Admin\\Desktop\\M2I\\Depot github\\FormationM2I\\Exercices\\C#\\Bordel\\Bordel\\Bordel.csproj' introuvable. Vérifiez que la référence de projet est valide et que le fichier projet existe.",
-      "libraryId": "C:\\Users\\Admin\\Desktop\\M2I\\Depot github\\FormationM2I\\Exercices\\C#\\Bordel\\Bordel\\Bordel.csproj",
+      "message": "Projet 'C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\Bordel\\Bordel.csproj' introuvable. Vérifiez que la référence de projet est valide et que le fichier projet existe.",
+      "libraryId": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\Bordel\\Bordel.csproj",
       "targetGraphs": [
         "net10.0"
       ]

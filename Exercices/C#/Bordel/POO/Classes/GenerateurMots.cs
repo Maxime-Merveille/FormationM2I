@@ -23,16 +23,20 @@ namespace POO.Classes
 {
     internal class GenerateurMots
     {
-        private static readonly string[] ListeMots = { "astronaute", "clavier", "montagne", "chocolat", "papillon" };
-        private static Random rand = new Random();
+        private static readonly string[] _listeMots = { "astronaute", "clavier", "montagne", "chocolat", "papillon" };
+        private static Random _rand = new Random();
 
         public GenerateurMots()
         {
         }
 
+        /// <summary>
+        /// Genere un mots aleatoire tiré d'une liste de mots predefinis
+        /// </summary>
+        /// <returns>String correspondant au mot aleatoire</returns>
         public static string GenererMot()
         {
-            return ListeMots[rand.Next(0, 5)];
+            return _listeMots[_rand.Next(0, 5)];
         }
     }
 }

@@ -1,28 +1,28 @@
 {
   "version": 2,
-  "dgSpecHash": "O7Z5GdftfxQ=",
+  "dgSpecHash": "MZU6XnERKes=",
   "success": false,
-  "projectFilePath": "C:\\Users\\Admin\\Desktop\\M2I\\Depot github\\FormationM2I\\Exercices\\C#\\Bordel\\Unittest\\Unittest.csproj",
+  "projectFilePath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\Unittest\\Unittest.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Admin\\.nuget\\packages\\coverlet.collector\\6.0.4\\coverlet.collector.6.0.4.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.codecoverage\\17.14.0\\microsoft.codecoverage.17.14.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.net.test.sdk\\17.14.0\\microsoft.net.test.sdk.17.14.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.14.0\\microsoft.testplatform.objectmodel.17.14.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.testplatform.testhost\\17.14.0\\microsoft.testplatform.testhost.17.14.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\nunit\\3.14.0\\nunit.3.14.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\nunit3testadapter\\4.6.0\\nunit3testadapter.4.6.0.nupkg.sha512"
+    "C:\\Users\\Administrateur\\.nuget\\packages\\coverlet.collector\\6.0.4\\coverlet.collector.6.0.4.nupkg.sha512",
+    "C:\\Users\\Administrateur\\.nuget\\packages\\microsoft.codecoverage\\17.14.0\\microsoft.codecoverage.17.14.0.nupkg.sha512",
+    "C:\\Users\\Administrateur\\.nuget\\packages\\microsoft.net.test.sdk\\17.14.0\\microsoft.net.test.sdk.17.14.0.nupkg.sha512",
+    "C:\\Users\\Administrateur\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Administrateur\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.14.0\\microsoft.testplatform.objectmodel.17.14.0.nupkg.sha512",
+    "C:\\Users\\Administrateur\\.nuget\\packages\\microsoft.testplatform.testhost\\17.14.0\\microsoft.testplatform.testhost.17.14.0.nupkg.sha512",
+    "C:\\Users\\Administrateur\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\Administrateur\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Administrateur\\.nuget\\packages\\nunit\\3.14.0\\nunit.3.14.0.nupkg.sha512",
+    "C:\\Users\\Administrateur\\.nuget\\packages\\nunit3testadapter\\4.6.0\\nunit3testadapter.4.6.0.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Projet 'C:\\Users\\Admin\\Desktop\\M2I\\Depot github\\FormationM2I\\Exercices\\C#\\Bordel\\Bordel\\Bordel.csproj' introuvable. Vérifiez que la référence de projet est valide et que le fichier projet existe.",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\M2I\\Depot github\\FormationM2I\\Exercices\\C#\\Bordel\\Unittest\\Unittest.csproj",
-      "filePath": "C:\\Users\\Admin\\Desktop\\M2I\\Depot github\\FormationM2I\\Exercices\\C#\\Bordel\\Unittest\\Unittest.csproj",
-      "libraryId": "C:\\Users\\Admin\\Desktop\\M2I\\Depot github\\FormationM2I\\Exercices\\C#\\Bordel\\Bordel\\Bordel.csproj",
+      "message": "Projet 'C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\Bordel\\Bordel.csproj' introuvable. Vérifiez que la référence de projet est valide et que le fichier projet existe.",
+      "projectPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\Unittest\\Unittest.csproj",
+      "filePath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\Unittest\\Unittest.csproj",
+      "libraryId": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\Bordel\\Bordel.csproj",
       "targetGraphs": [
         "net10.0"
       ]

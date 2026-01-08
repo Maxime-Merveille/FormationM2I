@@ -1,6 +1,6 @@
 ﻿//_______________________________________________________________________________________________________________________________________//
 //   Programme développé par                                                                                                             //
-//   ___  ___   ___    _   _   _____   ___ ___ _____          ___  ___  _____   _____   _   _   _____   _____   _       _       _____   //
+//   ___  ___   ___    _   _   _____   ___ ___ _____          ___  ___  _____   _____   _   _   _____   _____   _       _       _____    //
 //   |  \/  |  / _ \  | \ / | |_   _| |  \/  | |  ___|         |  \/  | |  ___| | ___ | | | | | |  ___| |_   _| | |     | |     |  ___|  //
 //   | .  . | / /_\ \  \ V /    | |   | .  . | | |__           | .  . | | |__   | |_/ / | | | | | |__     | |   | |     | |     | |__    //
 //   | |\/| | |  _  |  / _ \    | |   | |\/| | |  __|          | |\/| | |  __|  |    /  | | | | |  __|    | |   | |     | |     |  __|   //
@@ -26,8 +26,8 @@ namespace POO.Classes
     /// </summary>
     internal class Salarie
     {
-        private static int TotalSalarie { get; set; } = 0;
-        private static double TotalSalaire { get; set; } = 0;
+        private static int _totalSalarie { get; set; } = 0;
+        private static double _totalSalaire { get; set; } = 0;
 
         public int Matricule { get; set; }
         public string Service { get; set; }
@@ -38,7 +38,7 @@ namespace POO.Classes
 
         private Salarie()
         {
-            TotalSalarie++;
+            _totalSalarie++;
         }
 
         /// <summary>
@@ -57,7 +57,7 @@ namespace POO.Classes
             Nom = nom;
             Salaire = salaire;
 
-            TotalSalaire += salaire;
+            _totalSalaire += salaire;
         }
         /// <summary>
         /// Permet d'afficher le salaire de l'instance 
@@ -72,7 +72,7 @@ namespace POO.Classes
         /// </summary>
         public static void AfficherTotalSalarie()
         {
-            Console.WriteLine($"Il y a {TotalSalarie} salarie dans l'entreprise");
+            Console.WriteLine($"Il y a {_totalSalarie} salarie dans l'entreprise");
         }
 
         /// <summary>
@@ -80,7 +80,7 @@ namespace POO.Classes
         /// </summary>
         public static void AfficherTotalSalaire()
         {
-            Console.WriteLine($"Le salaire total pour les {TotalSalarie} salaries est de {TotalSalaire} euros");
+            Console.WriteLine($"Le salaire total pour les {_totalSalarie} salaries est de {_totalSalaire} euros");
         }
 
         /// <summary>
@@ -88,7 +88,7 @@ namespace POO.Classes
         /// </summary>
         public static void ResetNombreSalarie()
         {
-            TotalSalarie = 0;
+            _totalSalarie = 0;
         }
     }
 }

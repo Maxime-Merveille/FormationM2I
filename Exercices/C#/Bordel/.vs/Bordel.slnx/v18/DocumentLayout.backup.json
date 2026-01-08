@@ -1,13 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\M2I\\Depot github\\FormationM2I\\Exercices\\C#\\Bordel\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|c:\\users\\admin\\desktop\\m2i\\depot github\\formationm2i\\exercices\\c#\\bordel\\poo\\classes\\citerne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|solutionrelative:poo\\classes\\citerne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\bordel\\poo\\classes\\comptebancaire\\comptecourant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|solutionrelative:poo\\classes\\comptebancaire\\comptecourant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|c:\\users\\admin\\desktop\\m2i\\depot github\\formationm2i\\exercices\\c#\\bordel\\poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\bordel\\poo\\classes\\comptebancaire\\comptebancaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|solutionrelative:poo\\classes\\comptebancaire\\comptebancaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\bordel\\poo\\classes\\comptebancaire\\comptepayant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|solutionrelative:poo\\classes\\comptebancaire\\comptepayant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\bordel\\poo\\classes\\comptebancaire\\compteepargne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|solutionrelative:poo\\classes\\comptebancaire\\compteepargne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\bordel\\poo\\classes\\comptebancaire\\operation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|solutionrelative:poo\\classes\\comptebancaire\\operation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\bordel\\poo\\classes\\comptebancaire\\ihmcomptebancaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|solutionrelative:poo\\classes\\comptebancaire\\ihmcomptebancaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\bordel\\poo\\classes\\comptebancaire\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|solutionrelative:poo\\classes\\comptebancaire\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\bordel\\poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|solutionrelative:poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 210,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +50,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Citerne.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\M2I\\Depot github\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\Citerne.cs",
-              "RelativeDocumentMoniker": "POO\\Classes\\Citerne.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\M2I\\Depot github\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\Citerne.cs",
-              "RelativeToolTip": "POO\\Classes\\Citerne.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAIwDgAAACQAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Program.cs",
+              "RelativeDocumentMoniker": "POO\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Program.cs",
+              "RelativeToolTip": "POO\\Program.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowKoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T18:25:14.899Z",
+              "WhenOpened": "2026-01-08T14:58:55.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IHMCompteBancaire.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\CompteBancaire\\IHMCompteBancaire.cs",
+              "RelativeDocumentMoniker": "POO\\Classes\\CompteBancaire\\IHMCompteBancaire.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\CompteBancaire\\IHMCompteBancaire.cs",
+              "RelativeToolTip": "POO\\Classes\\CompteBancaire\\IHMCompteBancaire.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAD4vxMAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T13:41:02.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CompteCourant.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\CompteBancaire\\CompteCourant.cs",
+              "RelativeDocumentMoniker": "POO\\Classes\\CompteBancaire\\CompteCourant.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\CompteBancaire\\CompteCourant.cs",
+              "RelativeToolTip": "POO\\Classes\\CompteBancaire\\CompteCourant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T13:40:41.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CompteEpargne.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\CompteBancaire\\CompteEpargne.cs",
+              "RelativeDocumentMoniker": "POO\\Classes\\CompteBancaire\\CompteEpargne.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\CompteBancaire\\CompteEpargne.cs",
+              "RelativeToolTip": "POO\\Classes\\CompteBancaire\\CompteEpargne.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T13:40:31.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ComptePayant.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\CompteBancaire\\ComptePayant.cs",
+              "RelativeDocumentMoniker": "POO\\Classes\\CompteBancaire\\ComptePayant.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\CompteBancaire\\ComptePayant.cs",
+              "RelativeToolTip": "POO\\Classes\\CompteBancaire\\ComptePayant.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T13:40:19.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Operation.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\CompteBancaire\\Operation.cs",
+              "RelativeDocumentMoniker": "POO\\Classes\\CompteBancaire\\Operation.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\CompteBancaire\\Operation.cs",
+              "RelativeToolTip": "POO\\Classes\\CompteBancaire\\Operation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T13:40:07.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\CompteBancaire\\Client.cs",
+              "RelativeDocumentMoniker": "POO\\Classes\\CompteBancaire\\Client.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\CompteBancaire\\Client.cs",
+              "RelativeToolTip": "POO\\Classes\\CompteBancaire\\Client.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAwwCsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T13:39:34.497Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\M2I\\Depot github\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Program.cs",
-              "RelativeDocumentMoniker": "POO\\Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\M2I\\Depot github\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Program.cs",
-              "RelativeToolTip": "POO\\Program.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAWwG8AAAA3AAAAAAAAAA==",
+              "Title": "CompteBancaire.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\CompteBancaire\\CompteBancaire.cs",
+              "RelativeDocumentMoniker": "POO\\Classes\\CompteBancaire\\CompteBancaire.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\CompteBancaire\\CompteBancaire.cs",
+              "RelativeToolTip": "POO\\Classes\\CompteBancaire\\CompteBancaire.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAjwF0AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T09:20:45.697Z",
+              "WhenOpened": "2026-01-08T13:39:09.404Z",
               "EditorCaption": ""
             }
           ]
