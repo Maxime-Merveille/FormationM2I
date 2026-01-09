@@ -19,50 +19,29 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace POO.Classes.CompteBancaire
+namespace POO.Classes.GestionPaiement
 {
-    internal class ComptePayant : CompteBancaire
+    internal class GestionPaiement
     {
-        // Attributs de classes
-        public float TauxSurcout { get; set; }
+        // Attribut statiques
+        public static CarteDeCredit carteDeCredit { get; set; }
+        public static Paypal paypal { get; set; }  
 
-        // Constructeur
-        public ComptePayant(int numeroCompte, double solde, Client client, float tauxSurcout) : base(numeroCompte, solde, client)
+        // Methode d'init des var
+        public static void Init()
         {
-            TauxSurcout = tauxSurcout;
+            carteDeCredit = new CarteDeCredit(123456, "Merveille Maxime", DateTime.Now, 266, 1999.99);
+            paypal = new Paypal("maximemerveille59@gmail.com", "formation", 499.99);
         }
 
-        /// <summary>
-        /// Fait un depot sur le compte. 
-        /// </summary>
-        /// <param name="montant">Double du montant de l'operation</param>
-        public override void Depot(double montant)
+        // Lancement programme Gestion Paiement
+        public static void TestGestionPaiement()
         {
-            base.Depot(montant);
-            Solde += montant - (montant * TauxSurcout);
-            FormatSolde();
-        }
+            Init();
 
-        /// <summary>
-        /// Fait un retrait sur le compte. 
-        /// </summary>
-        /// <param name="montant">Double du montant de l'operation</param>
-        public override void Retrait(double montant)
-        {
-            double montantEtSurcout = montant + (montant * TauxSurcout);
+            Console.WriteLine(carteDeCredit.EffectuerPaiement(500.00));
 
-            base.Retrait(montantEtSurcout);
-            Solde -= montantEtSurcout;
-            FormatSolde();
-        }
-
-        /// <summary>
-        /// Override de la methode Object.ToString()
-        /// </summary>
-        /// <returns>String de la description du compte</returns>
-        public override string ToString()
-        {
-            return base.ToString() + $"\nTaux de surcout : {TauxSurcout}";
+            Console.WriteLine(paypal.EffectuerPaiement(200.00));
         }
     }
 }

@@ -1,4 +1,21 @@
-﻿using System;
+﻿//_______________________________________________________________________________________________________________________________________//
+//   Programme développé par                                                                                                             //
+//   ___  ___   ___    _   _   _____   ___ ___ _____           ___  ___  _____   _____   _   _   _____   _____   _       _       _____   //
+//   |  \/  |  / _ \  | \ / | |_   _| |  \/  | |  ___|         |  \/  | |  ___| | ___ | | | | | |  ___| |_   _| | |     | |     |  ___|  //
+//   | .  . | / /_\ \  \ V /    | |   | .  . | | |__           | .  . | | |__   | |_/ / | | | | | |__     | |   | |     | |     | |__    //
+//   | |\/| | |  _  |  / _ \    | |   | |\/| | |  __|          | |\/| | |  __|  |    /  | | | | |  __|    | |   | |     | |     |  __|   //
+//   | |  | | | | | | / / \ \  _| |_  | |  | | | |___          | |  | | | |___  | |\ \  \ \_/ / | |___   _| |_  | |____ | |____ | |___   //
+//   \_|  |_/ \_| |_/ \/   \/ |_____| \_|  |_/ \____/          \_|  |_/ \____/  \_| \_|  \___/  \____/  |_____| \_____/ \_____/ \____/   //
+//                                                                                                                                       //
+//                                                      /\_/\           ___                                                              //
+//                                                     = o_o =_______    \ \                                                             //
+//                                                      __^      __(  \___) )                                                            //
+//                                                  (@)<_____>__(_____)____/                                                             //
+//                                                                                                                                       //
+//	 Le 07/01/2026                     mail: maximemerveille59@gmail.com                  github: https://github.com/Maxime-Merveille    //
+//_______________________________________________________________________________________________________________________________________//
+
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -9,8 +26,10 @@ namespace POO.Classes.CompteBancaire
         public static Client client1 { get; set; }
         public static Client client2 { get; set; }
 
-
-        static void Init()
+        /// <summary>
+        /// Init des clients 
+        /// </summary>
+        private static void Init()
         {
             client1 = new Client("Maxime", "Merveille", 123456, 0666548778);
             client2 = new Client("Jean", "TrucMachin", 987654, 0696969696);
@@ -38,6 +57,9 @@ namespace POO.Classes.CompteBancaire
             client2.NewRetraitParIdCompte(8765, 1000.00);
         }
 
+        /// <summary>
+        /// Methode de test pas beau
+        /// </summary>
         public static void Test()
         {
             Init();
@@ -61,24 +83,33 @@ namespace POO.Classes.CompteBancaire
             client2.GetCompteBancaireById(8765).PrintAllOperation();
         }
 
+        /// <summary>
+        /// Recupere l'identifiant du compte 
+        /// </summary>
+        /// <returns>Int de l'identifiant du compte </returns>
         private static int GetId()
         {
             Console.WriteLine("Entrez l'id du compte");
             return Int32.Parse(Console.ReadLine());
         }
 
-        private static int GetMontant()
+        /// <summary>
+        /// Recupere le montant de l'operation 
+        /// </summary>
+        /// <returns>Double du montant </returns>
+        private static double GetMontant()
         {
             Console.WriteLine("Entrez le montant de la transaction");
-            return Int32.Parse(Console.ReadLine());
+            return double.Parse(Console.ReadLine());
         }
 
+        /// <summary>
+        /// IHM avec menu de choix d'action a effectuer sur le compte client
+        /// </summary>
         public static void IHM()
         {
             Init();
             bool continuer = true;
-
-            
 
             while (continuer)
             {

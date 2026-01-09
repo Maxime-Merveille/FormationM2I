@@ -19,50 +19,11 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace POO.Classes.CompteBancaire
+namespace POO.Classes.GestionPaiement
 {
-    internal class ComptePayant : CompteBancaire
+    internal interface IPaiement
     {
-        // Attributs de classes
-        public float TauxSurcout { get; set; }
-
-        // Constructeur
-        public ComptePayant(int numeroCompte, double solde, Client client, float tauxSurcout) : base(numeroCompte, solde, client)
-        {
-            TauxSurcout = tauxSurcout;
-        }
-
-        /// <summary>
-        /// Fait un depot sur le compte. 
-        /// </summary>
-        /// <param name="montant">Double du montant de l'operation</param>
-        public override void Depot(double montant)
-        {
-            base.Depot(montant);
-            Solde += montant - (montant * TauxSurcout);
-            FormatSolde();
-        }
-
-        /// <summary>
-        /// Fait un retrait sur le compte. 
-        /// </summary>
-        /// <param name="montant">Double du montant de l'operation</param>
-        public override void Retrait(double montant)
-        {
-            double montantEtSurcout = montant + (montant * TauxSurcout);
-
-            base.Retrait(montantEtSurcout);
-            Solde -= montantEtSurcout;
-            FormatSolde();
-        }
-
-        /// <summary>
-        /// Override de la methode Object.ToString()
-        /// </summary>
-        /// <returns>String de la description du compte</returns>
-        public override string ToString()
-        {
-            return base.ToString() + $"\nTaux de surcout : {TauxSurcout}";
-        }
+        // Methode de paiement
+        string EffectuerPaiement(double Montant);
     }
 }

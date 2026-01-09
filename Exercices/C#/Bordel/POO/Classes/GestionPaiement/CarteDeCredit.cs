@@ -19,50 +19,45 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace POO.Classes.CompteBancaire
+namespace POO.Classes.GestionPaiement
 {
-    internal class ComptePayant : CompteBancaire
+    internal class CarteDeCredit : IPaiement
     {
-        // Attributs de classes
-        public float TauxSurcout { get; set; }
+
+        // Attribut de la carte de credit
+        public int Numero { get; set; }
+        public string Titulaire { get; set; }
+        public DateTime DateExpiration { get; set; }
+        public int CodeCCV { get; set; }
+        public double Solde { get; set; }
 
         // Constructeur
-        public ComptePayant(int numeroCompte, double solde, Client client, float tauxSurcout) : base(numeroCompte, solde, client)
+        public CarteDeCredit(int numero, string titulaire, DateTime dateExp, int codeCCV, double solde)
         {
-            TauxSurcout = tauxSurcout;
+            Numero = numero;
+            Titulaire = titulaire;
+            DateExpiration = dateExp;
+            CodeCCV = codeCCV;
+            Solde = solde;
         }
 
         /// <summary>
-        /// Fait un depot sur le compte. 
+        /// Methode de paiement 
         /// </summary>
-        /// <param name="montant">Double du montant de l'operation</param>
-        public override void Depot(double montant)
+        /// <param name="Montant">Double du montant du paiement </param>
+        /// <returns>String d'info sur la transaction</returns>
+        public string EffectuerPaiement(double Montant)
         {
-            base.Depot(montant);
-            Solde += montant - (montant * TauxSurcout);
-            FormatSolde();
-        }
-
-        /// <summary>
-        /// Fait un retrait sur le compte. 
-        /// </summary>
-        /// <param name="montant">Double du montant de l'operation</param>
-        public override void Retrait(double montant)
-        {
-            double montantEtSurcout = montant + (montant * TauxSurcout);
-
-            base.Retrait(montantEtSurcout);
-            Solde -= montantEtSurcout;
-            FormatSolde();
-        }
-
-        /// <summary>
-        /// Override de la methode Object.ToString()
-        /// </summary>
-        /// <returns>String de la description du compte</returns>
-        public override string ToString()
-        {
-            return base.ToString() + $"\nTaux de surcout : {TauxSurcout}";
+            if (Solde < Montant)
+            {
+                return "Echec du paiement par carte de credit de " + Montant + " euros.\nSolde insuffisant.";
+            }
+            else
+            {
+                Solde -= Montant;
+                return "Paiement carte de credit de " + Montant + " euros effectue.\nVotre solde est de :" + Solde + " euros.";
+            }
+            
         }
     }
 }
