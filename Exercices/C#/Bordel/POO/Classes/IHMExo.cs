@@ -1,4 +1,6 @@
-﻿using System;
+﻿using POO.Classes.Billetterie;
+using POO.Classes.TryCatch;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -134,6 +136,19 @@ namespace POO.Classes
                 }
             }
 
+        }
+    
+        public static void TestBilleterie()
+        {
+            GestionBilleterie.Init();
+            GestionBilleterie.Lauch();
+        }
+
+        public static void TestTryCatch()
+        {
+            Converteur.Init();
+            
+            
         }
     }
 }

@@ -43,7 +43,10 @@ namespace POO
             //IHMExo.IHMCompteBancaire.IHM();
 
             //GestionPaiement.TestGestionPaiement();
-           
+
+            //IHMExo.TestBilleterie();
+
+            IHMExo.TestTryCatch();
         }
     }
 }

@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\bordel\\poo\\classes\\billetterie\\gestionbilleterie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|solutionrelative:poo\\classes\\billetterie\\gestionbilleterie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\bordel\\poo\\classes\\billetterie\\billet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|solutionrelative:poo\\classes\\billetterie\\billet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\bordel\\poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|solutionrelative:poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\bordel\\poo\\classes\\billetterie\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|solutionrelative:poo\\classes\\billetterie\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\bordel\\poo\\classes\\ihmexo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|solutionrelative:poo\\classes\\ihmexo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\bordel\\poo\\classes\\billetterie\\evenement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|solutionrelative:poo\\classes\\billetterie\\evenement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\bordel\\poo\\classes\\billetterie\\lieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|solutionrelative:poo\\classes\\billetterie\\lieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\bordel\\poo\\classes\\billetterie\\adresse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|solutionrelative:poo\\classes\\billetterie\\adresse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\bordel\\poo\\classes\\trycatch\\converteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38651AA6-0A71-48CB-965D-B90A51AA3DDF}|POO\\POO.csproj|solutionrelative:poo\\classes\\trycatch\\converteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,92 +31,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GestionBilleterie.cs",
-              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\Billetterie\\GestionBilleterie.cs",
-              "RelativeDocumentMoniker": "POO\\Classes\\Billetterie\\GestionBilleterie.cs",
-              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\Billetterie\\GestionBilleterie.cs",
-              "RelativeToolTip": "POO\\Classes\\Billetterie\\GestionBilleterie.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T15:14:24.862Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Billet.cs",
-              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\Billetterie\\Billet.cs",
-              "RelativeDocumentMoniker": "POO\\Classes\\Billetterie\\Billet.cs",
-              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\Billetterie\\Billet.cs",
-              "RelativeToolTip": "POO\\Classes\\Billetterie\\Billet.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T15:06:24.1Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Program.cs",
               "RelativeDocumentMoniker": "POO\\Program.cs",
               "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Program.cs",
               "RelativeToolTip": "POO\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T15:05:21.778Z",
+              "WhenOpened": "2026-01-12T10:29:28.455Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Client.cs",
-              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\Billetterie\\Client.cs",
-              "RelativeDocumentMoniker": "POO\\Classes\\Billetterie\\Client.cs",
-              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\Billetterie\\Client.cs",
-              "RelativeToolTip": "POO\\Classes\\Billetterie\\Client.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAlAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "IHMExo.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\IHMExo.cs",
+              "RelativeDocumentMoniker": "POO\\Classes\\IHMExo.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\IHMExo.cs",
+              "RelativeToolTip": "POO\\Classes\\IHMExo.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T15:02:53.47Z",
+              "WhenOpened": "2026-01-12T08:06:43.074Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Evenement.cs",
-              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\Billetterie\\Evenement.cs",
-              "RelativeDocumentMoniker": "POO\\Classes\\Billetterie\\Evenement.cs",
-              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\Billetterie\\Evenement.cs",
-              "RelativeToolTip": "POO\\Classes\\Billetterie\\Evenement.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Converteur.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\TryCatch\\Converteur.cs",
+              "RelativeDocumentMoniker": "POO\\Classes\\TryCatch\\Converteur.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\TryCatch\\Converteur.cs",
+              "RelativeToolTip": "POO\\Classes\\TryCatch\\Converteur.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T15:02:44.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Lieu.cs",
-              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\Billetterie\\Lieu.cs",
-              "RelativeDocumentMoniker": "POO\\Classes\\Billetterie\\Lieu.cs",
-              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\Billetterie\\Lieu.cs",
-              "RelativeToolTip": "POO\\Classes\\Billetterie\\Lieu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T15:02:33.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Adresse.cs",
-              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\Billetterie\\Adresse.cs",
-              "RelativeDocumentMoniker": "POO\\Classes\\Billetterie\\Adresse.cs",
-              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\Bordel\\POO\\Classes\\Billetterie\\Adresse.cs",
-              "RelativeToolTip": "POO\\Classes\\Billetterie\\Adresse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T15:02:20.582Z",
+              "WhenOpened": "2026-01-12T10:25:31.366Z",
               "EditorCaption": ""
             }
           ]

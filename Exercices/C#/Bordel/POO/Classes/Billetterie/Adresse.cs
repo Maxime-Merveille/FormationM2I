@@ -13,5 +13,10 @@ namespace POO.Classes.Billetterie
             Rue = rue;
             Ville = ville;
         }
+
+        public override string ToString()
+        {
+            return $"Rue {Rue}, {Ville}";
+        }
     }
 }

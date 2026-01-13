@@ -12,5 +12,10 @@ namespace POO.Classes.Billetterie
         {
             Capacite = capacite; 
         }
+
+        public override string ToString()
+        {
+            return $"Rue {Rue}, {Ville}, Capacité : {Capacite}";
+        }
     }
 }

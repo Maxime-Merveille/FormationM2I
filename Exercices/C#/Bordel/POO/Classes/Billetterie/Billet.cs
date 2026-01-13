@@ -25,5 +25,7 @@ namespace POO.Classes.Billetterie
             typePlace= tPlace;
         }
 
+        
+
     }
 }
