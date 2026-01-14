@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursADO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A75B6AE-50A1-4BB2-B37D-F4A15B2121FA}|ExoRecipeADO\\ExoRecipeADO.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\coursado\\exorecipeado\\query\\recettequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A75B6AE-50A1-4BB2-B37D-F4A15B2121FA}|ExoRecipeADO\\ExoRecipeADO.csproj|solutionrelative:exorecipeado\\query\\recettequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A75B6AE-50A1-4BB2-B37D-F4A15B2121FA}|ExoRecipeADO\\ExoRecipeADO.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\coursado\\exorecipeado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A75B6AE-50A1-4BB2-B37D-F4A15B2121FA}|ExoRecipeADO\\ExoRecipeADO.csproj|solutionrelative:exorecipeado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 210,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RecetteQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursADO\\ExoRecipeADO\\Query\\RecetteQuery.cs",
+              "RelativeDocumentMoniker": "ExoRecipeADO\\Query\\RecetteQuery.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursADO\\ExoRecipeADO\\Query\\RecetteQuery.cs",
+              "RelativeToolTip": "ExoRecipeADO\\Query\\RecetteQuery.cs",
+              "ViewState": "AgIAAMIAAAAAAAAAAAAuwB4BAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T14:39:05.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursADO\\ExoRecipeADO\\Program.cs",
+              "RelativeDocumentMoniker": "ExoRecipeADO\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursADO\\ExoRecipeADO\\Program.cs",
+              "RelativeToolTip": "ExoRecipeADO\\Program.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwCoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T14:11:26.145Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

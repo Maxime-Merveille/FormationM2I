@@ -1,0 +1,55 @@
+DROP DATABASE IF EXISTS recipe;
+CREATE DATABASE IF NOT EXISTS recipe;
+
+USE recipe;
+
+CREATE TABLE Ingredient(
+ID INT PRIMARY KEY AUTO_INCREMENT,
+Nom VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE Etape(
+ID INT PRIMARY KEY AUTO_INCREMENT,
+Descriptions VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE Categorie(
+ID INT PRIMARY KEY AUTO_INCREMENT,
+Nom VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE Commentaire(
+ID INT PRIMARY KEY AUTO_INCREMENT,
+Descriptions VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE Recette(
+ID INT PRIMARY KEY AUTO_INCREMENT,
+Nom VARCHAR(50) NOT NULL,
+TempsPrep INT,
+TempsCuisson INT,
+Difficulte VARCHAR(20),
+Id_categorie INT,
+FOREIGN KEY (Id_categorie) REFERENCES Categorie(ID)
+);
+
+CREATE TABLE IngredientsRecette(
+id_recette INT,
+id_ingredient INT,
+FOREIGN KEY (id_recette) REFERENCES Recette(ID) ON DELETE CASCADE,
+FOREIGN KEY (id_ingredient) REFERENCES Ingredient(ID) ON DELETE CASCADE
+);
+
+CREATE TABLE EtapesRecette(
+id_recette INT,
+id_etape INT,
+FOREIGN KEY (id_recette) REFERENCES Recette(ID) ON DELETE CASCADE,
+FOREIGN KEY (id_etape) REFERENCES Etape(ID) ON DELETE CASCADE
+);
+
+CREATE TABLE CommentaireRecette(
+id_recette INT,
+id_commentaire INT,
+FOREIGN KEY (id_recette) REFERENCES Recette(ID) ON DELETE CASCADE,
+FOREIGN KEY (id_commentaire) REFERENCES Commentaire(ID) 
+);

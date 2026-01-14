@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="CoursADO/CoursADO.csproj" />
+  <Project Path="ExoRecipeADO/ExoRecipeADO.csproj" Id="8a75b6ae-50a1-4bb2-b37d-f4a15b2121fa" />
+</Solution>
