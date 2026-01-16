@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="CoursEF/CoursEF.csproj" />
+  <Project Path="ExoContactEF/ExoContactEF.csproj" />
+</Solution>
