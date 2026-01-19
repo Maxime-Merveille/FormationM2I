@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="/home/SendMessage" method="post">
+        <div>
+            <label for="name">Nom</label> 
+            <input id="name" type="text" placeholder="Entrez le nom" required minlength="2">
+        </div>
+        <div>
+            <label for="surname">Prenom</label> 
+            <input id="surname" value="Jean-Michel" type="text" placeholder="Entrez le prenom" required maxlength="20">
+        </div>
+    
+        <div>
+            <label for="age">Age</label> 
+            <input id="age" value="0" min="0" max="99" type="number"required>
+        </div>
+
+        <div>
+            <label for="tel">tel</label> 
+            <input id="tel" type="tel" >
+        </div>
+
+        <div>
+            <label for="email">email</label> 
+            <input id="email" type="email" >
+        </div>
+
+        <div>
+            <label for="range">range</label> 
+            <input id="range" type="range" min="0" max="100">
+        </div>
+
+        <div>
+            <label for="estCon">Est con</label> 
+            <input id="estCon" type="checkbox" checked>
+        </div>
+
+        <div>
+            <label for="message">Message</label>
+            <textarea id="message" type="text" placeholder="Entrez le message" required maxlength="200"></textarea>
+        </div>
+        <fieldset>
+            <legend>Livraison</legend>
+            <label for="surPlace">Sur place</label>
+            <input type="radio" id="surPlace" name="livraison" value="Sur place">
+            
+            <label for="aEmporter">A emporter</label>
+            <input type="radio" id="aEmporter" name="livraison" value="A emporter">
+        </fieldset>
+        <fieldset>
+            <legend>Crudités</legend>
+            <div>
+                <label for="salade">Salade</label>
+                <input type="checkbox" id="salade" name="crud">
+
+                <label for="tomate">Tomate</label>
+                <input type="checkbox" id="tomate" name="crud">
+
+                <label for="oignon">Oignon</label>
+                <input type="checkbox" id="oignon" name="crud">
+
+            </div>
+        </fieldset>
+        <div>
+            <label for="animal">Choix animal pref : </label>
+            <select id="animal">
+                <option value="chat">Chat</option>
+                <option value="chien">Chien</option>
+                <option value="humain">Humain</option>
+                <option value="alien">Alien</option>
+            </select>
+        </div>
+        <div>
+            <label for="dateLiv">Date de livraison </label>
+            <input type="date" id="dateLiv" min="2026-01-19" max="2026-12-31">
+        </div>
+        <div>
+            <label for="heureLiv">Heure de livraison </label>
+            <input type="time" id="heureLiv" min="08:00" max="22:00">
+        </div>
+        <div>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+</body>
+</html>
