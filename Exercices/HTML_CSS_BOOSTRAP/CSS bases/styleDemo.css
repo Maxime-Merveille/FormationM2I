@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    background-color:  #FF7ADA;
+}
+
+header h1,p{
+    text-align: center;
+}
+
+nav a{
+    align-content: flex-start;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: black;
+    text-decoration: none;
+    
+    background-color: #ce5aad;
+}
