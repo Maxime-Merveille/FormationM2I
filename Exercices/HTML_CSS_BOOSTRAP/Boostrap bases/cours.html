@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cours</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  
+</head>
+<body>
+    
+    <!-- Faire des colonnes responsive :
+    avoir un "container"
+    avoir un ou plusieur "row" comme lignes, decoupé en 12 colonnes
+    avoir un ou plusieur colonnes pour les colonnes
+    col-12 definis la taille de la colonne qui prends toute la taille
+    col-md 6 definis la taille de la colonne qaund ecrans >= taille tablette 
+    col-md-6 dis que pour grand ecran : 2colonnes par page
+    si ecran large => col-lg-4 donc 3 colonne sur une ligne-->
+
+    <section class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-5 bg-success">
+                <h3 class="fw-bold">Contenu A</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nostrum nemo labore quasi laudantium accusantium. Sapiente quibusdam reiciendis quia sunt quas hic beatae numquam nam! Omnis, aliquid modi! Dolor, similique.</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-5 bg-info">
+                <h3 class="text-center">Contenu B</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nostrum nemo labore quasi laudantium accusantium. Sapiente quibusdam reiciendis quia sunt quas hic beatae numquam nam! Omnis, aliquid modi! Dolor, similique.</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-2 bg-danger">
+                <h3 class="text-end">Contenu C</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nostrum nemo labore quasi laudantium accusantium. Sapiente quibusdam reiciendis quia sunt quas hic beatae numquam nam! Omnis, aliquid modi! Dolor, similique.</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
