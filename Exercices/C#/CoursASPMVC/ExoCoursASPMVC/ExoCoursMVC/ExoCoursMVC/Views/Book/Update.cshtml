@@ -1,0 +1,35 @@
+﻿@model ExoCoursMVC.Models.Book
+@{
+    ViewData["Title"] = "Book Catalog";
+}
+
+<div class="card mb-3" style="max-width: 900px;">
+    <div class="row g-0">
+        <div class="col-md-7">
+            <div class="card-body">
+                <form class="row g-3">
+                    <div class="col-12">
+                        <label for="inputId" class="form-label">Id</label>
+                        <input type="number" class="form-control" id="inputId" value="@Model.Id" asp-for="Id" readonly>
+                    </div>
+                    <div class="col-12">
+                        <label for="inputNom" class="form-label">Titre</label>
+                        <input type="text" class="form-control" id="inputNom" value="@Model.Titre" asp-for="Titre">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress2" class="form-label">Genre</label>
+                        <input type="text" class="form-control" id="inputPrix" value="@Model.Genre" asp-for="Genre">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputCity" class="form-label">Stock</label>
+                        <input type="number" class="form-control" id="inputStock" value="@Model.Stock" asp-for="Stock">
+                    </div>
+                    <div class="col-12">
+                        <button asp-action="ConfirmUpdate" type="submit" class="btn btn-success">Confirmer modification</button>
+                        <a asp-action="Index" class="btn btn-secondary">Retour au catalogue</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

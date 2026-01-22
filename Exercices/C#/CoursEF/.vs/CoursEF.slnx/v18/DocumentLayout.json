@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursEF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EABAE6A2-8955-3F04-D202-5BD58D4242E9}|ExoContactEF\\ExoContactEF.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\coursef\\exocontactef\\views\\contactview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EABAE6A2-8955-3F04-D202-5BD58D4242E9}|ExoContactEF\\ExoContactEF.csproj|solutionrelative:exocontactef\\views\\contactview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EABAE6A2-8955-3F04-D202-5BD58D4242E9}|ExoContactEF\\ExoContactEF.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\coursef\\exocontactef\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EABAE6A2-8955-3F04-D202-5BD58D4242E9}|ExoContactEF\\ExoContactEF.csproj|solutionrelative:exocontactef\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EABAE6A2-8955-3F04-D202-5BD58D4242E9}|ExoContactEF\\ExoContactEF.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\coursef\\exocontactef\\repository\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EABAE6A2-8955-3F04-D202-5BD58D4242E9}|ExoContactEF\\ExoContactEF.csproj|solutionrelative:exocontactef\\repository\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EABAE6A2-8955-3F04-D202-5BD58D4242E9}|ExoContactEF\\ExoContactEF.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\coursef\\exocontactef\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,6 +13,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{EABAE6A2-8955-3F04-D202-5BD58D4242E9}|ExoContactEF\\ExoContactEF.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\coursef\\exocontactef\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EABAE6A2-8955-3F04-D202-5BD58D4242E9}|ExoContactEF\\ExoContactEF.csproj|solutionrelative:exocontactef\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EABAE6A2-8955-3F04-D202-5BD58D4242E9}|ExoContactEF\\ExoContactEF.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\coursef\\exocontactef\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EABAE6A2-8955-3F04-D202-5BD58D4242E9}|ExoContactEF\\ExoContactEF.csproj|solutionrelative:exocontactef\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EABAE6A2-8955-3F04-D202-5BD58D4242E9}|ExoContactEF\\ExoContactEF.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\coursef\\exocontactef\\views\\contactview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EABAE6A2-8955-3F04-D202-5BD58D4242E9}|ExoContactEF\\ExoContactEF.csproj|solutionrelative:exocontactef\\views\\contactview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EABAE6A2-8955-3F04-D202-5BD58D4242E9}|ExoContactEF\\ExoContactEF.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\coursef\\exocontactef\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,36 +34,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 210,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ContactController.cs",
-              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursEF\\ExoContactEF\\Controllers\\ContactController.cs",
-              "RelativeDocumentMoniker": "ExoContactEF\\Controllers\\ContactController.cs",
-              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursEF\\ExoContactEF\\Controllers\\ContactController.cs",
-              "RelativeToolTip": "ExoContactEF\\Controllers\\ContactController.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowCcAAAAzAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ContactRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursEF\\ExoContactEF\\Repository\\ContactRepository.cs",
+              "RelativeDocumentMoniker": "ExoContactEF\\Repository\\ContactRepository.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursEF\\ExoContactEF\\Repository\\ContactRepository.cs",
+              "RelativeToolTip": "ExoContactEF\\Repository\\ContactRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAKEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T13:18:00.778Z",
+              "WhenOpened": "2026-01-22T09:28:09.061Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursEF\\ExoContactEF\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "ExoContactEF\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursEF\\ExoContactEF\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "ExoContactEF\\Controllers\\ContactController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAIwCcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T13:18:00.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursEF\\ExoContactEF\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "ExoContactEF\\Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursEF\\ExoContactEF\\Data\\AppDbContext.cs",
               "RelativeToolTip": "ExoContactEF\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T13:18:00.204Z"
+              "WhenOpened": "2026-01-16T13:18:00.204Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Contact.cs",
               "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursEF\\ExoContactEF\\Models\\Contact.cs",
               "RelativeDocumentMoniker": "ExoContactEF\\Models\\Contact.cs",
@@ -72,20 +89,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "ContactView.cs",
               "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursEF\\ExoContactEF\\Views\\ContactView.cs",
               "RelativeDocumentMoniker": "ExoContactEF\\Views\\ContactView.cs",
               "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursEF\\ExoContactEF\\Views\\ContactView.cs",
               "RelativeToolTip": "ExoContactEF\\Views\\ContactView.cs",
-              "ViewState": "AgIAAKMAAAAAAAAAAAAcwLUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAwwLUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T13:17:57.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T13:17:57.739Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursEF\\ExoContactEF\\Program.cs",
               "RelativeDocumentMoniker": "ExoContactEF\\Program.cs",

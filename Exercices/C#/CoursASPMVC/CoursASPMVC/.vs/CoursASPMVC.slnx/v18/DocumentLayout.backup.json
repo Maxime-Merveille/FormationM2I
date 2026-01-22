@@ -1,12 +1,154 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursASPMVC\\CoursASPMVC\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74FD92FB-E4FD-0768-608D-3C8F81E2EBEB}|CoursASPMVC\\CoursASPMVC.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\coursaspmvc\\coursaspmvc\\coursaspmvc\\controllers\\produitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74FD92FB-E4FD-0768-608D-3C8F81E2EBEB}|CoursASPMVC\\CoursASPMVC.csproj|solutionrelative:coursaspmvc\\controllers\\produitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FD92FB-E4FD-0768-608D-3C8F81E2EBEB}|CoursASPMVC\\CoursASPMVC.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\coursaspmvc\\coursaspmvc\\coursaspmvc\\views\\produit\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74FD92FB-E4FD-0768-608D-3C8F81E2EBEB}|CoursASPMVC\\CoursASPMVC.csproj|solutionrelative:coursaspmvc\\views\\produit\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FD92FB-E4FD-0768-608D-3C8F81E2EBEB}|CoursASPMVC\\CoursASPMVC.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\coursaspmvc\\coursaspmvc\\coursaspmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74FD92FB-E4FD-0768-608D-3C8F81E2EBEB}|CoursASPMVC\\CoursASPMVC.csproj|solutionrelative:coursaspmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FD92FB-E4FD-0768-608D-3C8F81E2EBEB}|CoursASPMVC\\CoursASPMVC.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\coursaspmvc\\coursaspmvc\\coursaspmvc\\views\\produit\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74FD92FB-E4FD-0768-608D-3C8F81E2EBEB}|CoursASPMVC\\CoursASPMVC.csproj|solutionrelative:coursaspmvc\\views\\produit\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FD92FB-E4FD-0768-608D-3C8F81E2EBEB}|CoursASPMVC\\CoursASPMVC.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\coursaspmvc\\coursaspmvc\\coursaspmvc\\views\\produit\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74FD92FB-E4FD-0768-608D-3C8F81E2EBEB}|CoursASPMVC\\CoursASPMVC.csproj|solutionrelative:coursaspmvc\\views\\produit\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FD92FB-E4FD-0768-608D-3C8F81E2EBEB}|CoursASPMVC\\CoursASPMVC.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\coursaspmvc\\coursaspmvc\\coursaspmvc\\services\\produitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74FD92FB-E4FD-0768-608D-3C8F81E2EBEB}|CoursASPMVC\\CoursASPMVC.csproj|solutionrelative:coursaspmvc\\services\\produitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FD92FB-E4FD-0768-608D-3C8F81E2EBEB}|CoursASPMVC\\CoursASPMVC.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\coursaspmvc\\coursaspmvc\\coursaspmvc\\views\\produit\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74FD92FB-E4FD-0768-608D-3C8F81E2EBEB}|CoursASPMVC\\CoursASPMVC.csproj|solutionrelative:coursaspmvc\\views\\produit\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FD92FB-E4FD-0768-608D-3C8F81E2EBEB}|CoursASPMVC\\CoursASPMVC.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\coursaspmvc\\coursaspmvc\\coursaspmvc\\models\\produit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74FD92FB-E4FD-0768-608D-3C8F81E2EBEB}|CoursASPMVC\\CoursASPMVC.csproj|solutionrelative:coursaspmvc\\models\\produit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 210,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursASPMVC\\CoursASPMVC\\CoursASPMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CoursASPMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursASPMVC\\CoursASPMVC\\CoursASPMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CoursASPMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-22T10:55:44.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursASPMVC\\CoursASPMVC\\CoursASPMVC\\Views\\Produit\\Add.cshtml",
+              "RelativeDocumentMoniker": "CoursASPMVC\\Views\\Produit\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursASPMVC\\CoursASPMVC\\CoursASPMVC\\Views\\Produit\\Add.cshtml",
+              "RelativeToolTip": "CoursASPMVC\\Views\\Produit\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-22T08:46:12.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursASPMVC\\CoursASPMVC\\CoursASPMVC\\Views\\Produit\\Update.cshtml",
+              "RelativeDocumentMoniker": "CoursASPMVC\\Views\\Produit\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursASPMVC\\CoursASPMVC\\CoursASPMVC\\Views\\Produit\\Update.cshtml",
+              "RelativeToolTip": "CoursASPMVC\\Views\\Produit\\Update.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-22T08:45:36.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursASPMVC\\CoursASPMVC\\CoursASPMVC\\Views\\Produit\\Detail.cshtml",
+              "RelativeDocumentMoniker": "CoursASPMVC\\Views\\Produit\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursASPMVC\\CoursASPMVC\\CoursASPMVC\\Views\\Produit\\Detail.cshtml",
+              "RelativeToolTip": "CoursASPMVC\\Views\\Produit\\Detail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-22T07:58:26.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Produit.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursASPMVC\\CoursASPMVC\\CoursASPMVC\\Models\\Produit.cs",
+              "RelativeDocumentMoniker": "CoursASPMVC\\Models\\Produit.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursASPMVC\\CoursASPMVC\\CoursASPMVC\\Models\\Produit.cs",
+              "RelativeToolTip": "CoursASPMVC\\Models\\Produit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T07:50:18.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursASPMVC\\CoursASPMVC\\CoursASPMVC\\Views\\Produit\\Index.cshtml",
+              "RelativeDocumentMoniker": "CoursASPMVC\\Views\\Produit\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursASPMVC\\CoursASPMVC\\CoursASPMVC\\Views\\Produit\\Index.cshtml",
+              "RelativeToolTip": "CoursASPMVC\\Views\\Produit\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-22T07:48:26.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProduitService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursASPMVC\\CoursASPMVC\\CoursASPMVC\\Services\\ProduitService.cs",
+              "RelativeDocumentMoniker": "CoursASPMVC\\Services\\ProduitService.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursASPMVC\\CoursASPMVC\\CoursASPMVC\\Services\\ProduitService.cs",
+              "RelativeToolTip": "CoursASPMVC\\Services\\ProduitService.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAcwD4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T07:40:13.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProduitController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursASPMVC\\CoursASPMVC\\CoursASPMVC\\Controllers\\ProduitController.cs",
+              "RelativeDocumentMoniker": "CoursASPMVC\\Controllers\\ProduitController.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursASPMVC\\CoursASPMVC\\CoursASPMVC\\Controllers\\ProduitController.cs",
+              "RelativeToolTip": "CoursASPMVC\\Controllers\\ProduitController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T07:44:59.689Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

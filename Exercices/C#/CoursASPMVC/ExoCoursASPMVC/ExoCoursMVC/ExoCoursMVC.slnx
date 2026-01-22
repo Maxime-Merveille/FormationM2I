@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ExoCoursMVC/ExoCoursMVC.csproj" />
+  <Project Path="ExoUserMVC/ExoUserMVC.csproj" />
+</Solution>

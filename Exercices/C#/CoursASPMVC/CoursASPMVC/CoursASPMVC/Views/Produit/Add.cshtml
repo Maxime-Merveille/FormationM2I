@@ -1,0 +1,31 @@
+﻿@model CoursASPMVC.Models.Produit
+@{
+    ViewData["Title"] = "Product Catalog";
+}
+
+<div class="card mb-3" style="max-width: 900px;">
+    <div class="row g-0">
+        <div class="col-md-7">
+            <div class="card-body">
+                <form class="row g-3" asp-validation-summary="ModelOnly">
+                    <div class="col-12" >
+                        <label for="inputAddress" class="form-label">Nom</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Nom du produit" asp-for="Nom">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress2" class="form-label">Prix</label>
+                        <input type="number" class="form-control" id="inputPrix" placeholder="0.00" asp-for="Prix">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputCity" class="form-label">Stock</label>
+                        <input type="number" class="form-control" id="inputStock" placeholder="0" asp-for="Stock">
+                    </div>
+                    <div class="col-12">
+                        <button asp-action="ConfirmAdd" type="submit" class="btn btn-primary">Confirmer</button>
+                        <a asp-action="Index" class="btn btn-secondary">Retour au catalogue</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

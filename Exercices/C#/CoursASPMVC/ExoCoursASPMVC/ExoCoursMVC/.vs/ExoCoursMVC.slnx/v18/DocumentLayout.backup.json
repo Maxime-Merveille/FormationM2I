@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursASPMVC\\ExoCoursASPMVC\\ExoCoursMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FA22BA08-8F63-4858-BCB5-19662E8F7D3F}|ExoUserMVC\\ExoUserMVC.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\coursaspmvc\\exocoursaspmvc\\exocoursmvc\\exousermvc\\views\\user\\adminpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FA22BA08-8F63-4858-BCB5-19662E8F7D3F}|ExoUserMVC\\ExoUserMVC.csproj|solutionrelative:exousermvc\\views\\user\\adminpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA22BA08-8F63-4858-BCB5-19662E8F7D3F}|ExoUserMVC\\ExoUserMVC.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\coursaspmvc\\exocoursaspmvc\\exocoursmvc\\exousermvc\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA22BA08-8F63-4858-BCB5-19662E8F7D3F}|ExoUserMVC\\ExoUserMVC.csproj|solutionrelative:exousermvc\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA22BA08-8F63-4858-BCB5-19662E8F7D3F}|ExoUserMVC\\ExoUserMVC.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\coursaspmvc\\exocoursaspmvc\\exocoursmvc\\exousermvc\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FA22BA08-8F63-4858-BCB5-19662E8F7D3F}|ExoUserMVC\\ExoUserMVC.csproj|solutionrelative:exousermvc\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA22BA08-8F63-4858-BCB5-19662E8F7D3F}|ExoUserMVC\\ExoUserMVC.csproj|c:\\users\\administrateur\\onedrive - m2i\\depot perso\\formationm2i\\exercices\\c#\\coursaspmvc\\exocoursaspmvc\\exocoursmvc\\exousermvc\\views\\user\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FA22BA08-8F63-4858-BCB5-19662E8F7D3F}|ExoUserMVC\\ExoUserMVC.csproj|solutionrelative:exousermvc\\views\\user\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 210,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminPanel.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursASPMVC\\ExoCoursASPMVC\\ExoCoursMVC\\ExoUserMVC\\Views\\User\\AdminPanel.cshtml",
+              "RelativeDocumentMoniker": "ExoUserMVC\\Views\\User\\AdminPanel.cshtml",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursASPMVC\\ExoCoursASPMVC\\ExoCoursMVC\\ExoUserMVC\\Views\\User\\AdminPanel.cshtml",
+              "RelativeToolTip": "ExoUserMVC\\Views\\User\\AdminPanel.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-22T15:51:31.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursASPMVC\\ExoCoursASPMVC\\ExoCoursMVC\\ExoUserMVC\\Views\\User\\Details.cshtml",
+              "RelativeDocumentMoniker": "ExoUserMVC\\Views\\User\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursASPMVC\\ExoCoursASPMVC\\ExoCoursMVC\\ExoUserMVC\\Views\\User\\Details.cshtml",
+              "RelativeToolTip": "ExoUserMVC\\Views\\User\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-22T15:47:01.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursASPMVC\\ExoCoursASPMVC\\ExoCoursMVC\\ExoUserMVC\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "ExoUserMVC\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursASPMVC\\ExoCoursASPMVC\\ExoCoursMVC\\ExoUserMVC\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "ExoUserMVC\\Views\\User\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-22T15:42:20.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursASPMVC\\ExoCoursASPMVC\\ExoCoursMVC\\ExoUserMVC\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ExoUserMVC\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\OneDrive - M2I\\Depot Perso\\FormationM2I\\Exercices\\C#\\CoursASPMVC\\ExoCoursASPMVC\\ExoCoursMVC\\ExoUserMVC\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ExoUserMVC\\Controllers\\UserController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAEwDgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T15:41:03.858Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
